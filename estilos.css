@@ -1,0 +1,118 @@
+h1{font-family: Harrington;}
+/*titulo-->color, tamano de fuente y tipo de letra*/h2{ font-family:Imprint MT Shadow;
+    font-size: 40px;
+color: #ffffffef;} 
+/*subtitulo*/
+h3{ font-family: Edwardian Script ITC;
+font-size: 35px;
+color: #fff;}
+body{ background-size: cover;/*para que la imagen cubra toda la pagina*/}
+/*LOGO*/.showcase h1{ 
+   /*tamano de la letra*/ 
+   font-size: 8en; 
+    font-weight: 8000;
+    color:#fff; 
+    line-height: 5em;
+    text-transform: uppercase;
+}
+
+img{ /*REDONDEO DE LOGO*/
+    border-radius: 100%;
+}
+/*BOTONES*/
+.a{
+    display: flex;
+    /*para centrar los botones*/
+    align-items: center; 
+    align-content: center;
+
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-1{
+    text-decoration: none;
+    /*color del boton*/background-color:#fcb40c;
+   /*color de letra*/ color: rgb(49,49,49);
+    /*tamano del boton*/padding: 5px 10px;
+    /*forma del boton*/border-radius: 40px;
+    /**/transition: all.3s ease;
+   /*margen del boton*/ margin: 1.5rem;
+}
+.btn-1:hover{
+    background-color: #ffc000;/*para que cuando yo presione el boton cambide de color*/
+    color: #000;
+    box-shadow: 
+    0 0 5px #ffc000,
+    0 0 30px #ffc000,
+    0 0 60px #ffc000,
+    0 0 150px #ffc000;
+
+}
+    @font-face {
+        /* link de los iconos que te llevan a las paginas principales de facebook,instagram y whatsapp*/
+        font-family: 'icomoon';
+        src:  url('icomoon.eot?c55y5o');
+        src:  url('fonts/icomoon.eot?c55y5o#iefix') format('embedded-opentype'),
+          url('icomoon.ttf?c55y5o') format('truetype'),
+          url('icomoon.woff?c55y5o') format('woff'),
+          url('icomoon.svg?c55y5o#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* utilice! Importante para evitar problemas con las extensiones del navegador que cambian la fuente */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Mejor representación de fuentes */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /*cada icono, con su color*/
+    .icon-instagram:before {
+        content: "\e901";
+        color: #37a2dc;
+      }
+      .icon-player-dot-me:before {
+        content: "\e902";
+        color: #f32525;
+      }
+      .icon-whatsapp:before {
+        content: "\e903";
+        color: #25d366;
+      }
+      .icon-fedora:before {
+        content: "\e900";
+        color: #1358e4;
+      }
+      /*CSS BOTON INICIO,SIGUIENTE,REGRESAR*/
+      .shadow-effect{
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 8px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #ffffffdc;/*color base del boton*/
+        transition: box-shadow 0.3s ease-in-out;/*transición suave del efecto de sombra*/
+      }
+      .shadow-effect:hover{
+        box-shadow: 0px 8px 16px rgb(0, 0, 0);/*aumenta el desplazamiento y la opacidad de la sombra*/
+      }
+      /*margen de imagenes del menú*/
+      table img{
+        margin: 0 2.5rem 0 0;
+        
+      }
+    div{
+      font-weight: bold;
+    }
+      
